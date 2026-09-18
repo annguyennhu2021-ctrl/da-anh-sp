@@ -1,0 +1,39 @@
+CLAUDE DESKTOP — NHIỆM VỤ UP TOÀN BỘ SẢN PHẨM LÊN FANPAGE
+
+Nguồn media trên máy:
+D:\Bán Đá
+
+File nội dung chuẩn đã được soạn sẵn:
+CLAUDE_UPLOAD_PRODUCTS_SP001_SP053.txt
+
+Fanpage:
+Đá - Trà - Tử Vi
+
+MỤC TIÊU DUY NHẤT:
+Đưa toàn bộ SP-001 → SP-053 vào đúng mục Sản phẩm/Catalog trong Meta Commerce Manager của Fanpage.
+
+QUY TẮC:
+1. Dùng Computer Use để mở D:\Bán Đá, Meta Business Suite và Commerce Manager.
+2. Không viết lại nội dung. Tên sản phẩm và phần mô tả lấy đúng từ file CLAUDE_UPLOAD_PRODUCTS_SP001_SP053.txt.
+3. Với từng SKU, tìm đúng ảnh/video tương ứng trong D:\Bán Đá. Ưu tiên ảnh rõ toàn sản phẩm làm ảnh cover; thêm các ảnh/video còn lại nếu Catalog hỗ trợ.
+4. Upload đúng thứ tự SP-001 → SP-053.
+5. Tên item: “SP-xxx | TÊN SẢN PHẨM”.
+6. Phần mô tả: dùng đúng bài viết/mô tả tương ứng trong file đã cung cấp. Nếu trường mô tả của Meta giới hạn ký tự, rút gọn từ chính nội dung đó nhưng KHÔNG đổi dữ kiện, không thêm claim mới.
+7. Không công khai giá nếu Meta cho phép để trống/ẩn. Nếu Meta bắt buộc giá, DỪNG và hỏi tôi trước khi nhập giá.
+8. Không tự suy luận lại tên khoáng vật. Các cụm “theo nguồn” phải giữ nguyên tinh thần đó.
+9. Không thêm claim chữa bệnh, đổi vận, hút tài lộc chắc chắn hoặc bất kỳ claim sức khỏe nào.
+10. Không xóa, di chuyển hoặc ghi đè media gốc trong D:\Bán Đá.
+11. Nếu không map được media của một SKU, bỏ qua SKU đó tạm thời, ghi lại và tiếp tục SKU kế tiếp.
+12. Chỉ dừng toàn bộ khi Meta yêu cầu xác minh/đăng nhập/xác nhận nhạy cảm từ tôi hoặc gặp lỗi không thể tiếp tục.
+
+KHI HOÀN THÀNH:
+Tạo file D:\Bán Đá\UPLOAD_REPORT.md gồm:
+- Tổng SKU đã upload
+- Danh sách thành công
+- Danh sách bỏ qua/lỗi
+- SKU thiếu media
+- SKU bị nghi trùng
+- Bước nào cần tôi xử lý thủ công
+
+BẮT ĐẦU NGAY:
+Mở D:\Bán Đá → đọc file nội dung → mở Meta Business Suite → Công cụ quản lý thương mại/Commerce Manager → Catalog/Sản phẩm → upload lần lượt SP-001 đến SP-053.
