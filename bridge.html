@@ -1,0 +1,11 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>bridge</title></head><body>
+<script>
+var OK=/^https:\/\/(business|www)\.facebook\.com$/;
+window.addEventListener('message',function(e){
+  if(!OK.test(e.origin)||!e.data||!e.data.__req)return;
+  var d=e.data;
+  Promise.all(d.files.map(function(n){return fetch(n,{cache:'force-cache'}).then(function(r){if(!r.ok)throw new Error(n+' '+r.status);return r.arrayBuffer().then(function(b){return {name:n,type:r.headers.get('content-type')||'',buf:b}})})}))
+  .then(function(fs){e.source.postMessage({__res:d.__req,files:fs},e.origin,fs.map(function(f){return f.buf}))})
+  .catch(function(err){e.source.postMessage({__res:d.__req,err:String(err)},e.origin)});
+});
+</script></body></html>
