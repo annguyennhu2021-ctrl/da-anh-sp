@@ -250,6 +250,8 @@ document.addEventListener('keydown',e=>{
  if(e.key==='ArrowLeft'){const n=media(cur).length;idx=(idx-1+n)%n;renderStage();}
 });
 renderFilters();renderGrid();
+function fromHash(){const s=decodeURIComponent(location.hash.slice(1));if(DATA.products.find(p=>p.sku===s))openModal(s);}
+fromHash();window.addEventListener('hashchange',fromHash);
 </script>
 </body>
 </html>
